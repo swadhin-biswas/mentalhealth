@@ -1,0 +1,65 @@
+{
+  "run_id": "run_20260227_144239",
+  "generated_at": "2026-02-27T14:44:29.877794",
+  "sections": {
+    "data_statistics": {
+      "total_samples": 123961,
+      "total_posts": 13958,
+      "total_comments": 110003,
+      "crisis_samples": 2554,
+      "crisis_ratio": 0.02060325424932035,
+      "subreddit_distribution": {
+        "addiction": 4534,
+        "ADHD": 10463,
+        "Anxiety": 2996,
+        "autism": 12384,
+        "BipolarReddit": 8118,
+        "BPD": 4101,
+        "CPTSD": 5807,
+        "depression": 2157,
+        "EatingDisorders": 2354,
+        "lonely": 3220,
+        "mentalhealth": 2186,
+        "MentalHealthSupport": 1544,
+        "MMFB": 2474,
+        "nosurf": 4967,
+        "OCD": 2902,
+        "offmychest": 6135,
+        "PTSD": 4572,
+        "schizophrenia": 4749,
+        "selfharm": 2477,
+        "selfhelp": 2285,
+        "SeriousConversation": 17924,
+        "socialanxiety": 3681,
+        "stopdrinking": 10034,
+        "SuicideWatch": 1897
+      },
+      "avg_text_length": 390.2246432345657,
+      "response_types": {
+        "crisis_support": 69025,
+        "supportive": 369,
+        "resource": 3379,
+        "empathetic": 1610,
+        "gentle_challenge": 35,
+        "validation": 43,
+        "general_support": 49500
+      }
+    },
+    "execution_log": {
+      "run_id": "run_20260227_144239",
+      "status": "training",
+      "start_time": "2026-02-27T14:42:39+06:00",
+      "steps": [],
+      "message": "Training model",
+      "step": "training"
+    }
+  },
+  "summary": {
+    "total_samples": 123961,
+    "crisis_samples": 2554,
+    "training_time": 0,
+    "final_loss": 0,
+    "val_loss": 0,
+    "crisis_accuracy": 0
+  }
+}

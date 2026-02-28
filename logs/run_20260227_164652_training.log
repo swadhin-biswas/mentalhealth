@@ -1,0 +1,64 @@
+Loaded 123961 total samples
+Posts: 13958, Comments: 110003
+Crisis samples: 2554
+Data processing complete!
+Total samples: 123961
+Crisis samples: 2554
+{
+  "total_samples": 123961,
+  "total_posts": 13958,
+  "total_comments": 110003,
+  "crisis_samples": 2554,
+  "crisis_ratio": 0.02060325424932035,
+  "subreddit_distribution": {
+    "addiction": 4534,
+    "ADHD": 10463,
+    "Anxiety": 2996,
+    "autism": 12384,
+    "BipolarReddit": 8118,
+    "BPD": 4101,
+    "CPTSD": 5807,
+    "depression": 2157,
+    "EatingDisorders": 2354,
+    "lonely": 3220,
+    "mentalhealth": 2186,
+    "MentalHealthSupport": 1544,
+    "MMFB": 2474,
+    "nosurf": 4967,
+    "OCD": 2902,
+    "offmychest": 6135,
+    "PTSD": 4572,
+    "schizophrenia": 4749,
+    "selfharm": 2477,
+    "selfhelp": 2285,
+    "SeriousConversation": 17924,
+    "socialanxiety": 3681,
+    "stopdrinking": 10034,
+    "SuicideWatch": 1897
+  },
+  "avg_text_length": 390.2246432345657,
+  "response_types": {
+    "crisis_support": 69025,
+    "supportive": 369,
+    "resource": 3379,
+    "empathetic": 1610,
+    "gentle_challenge": 35,
+    "validation": 43,
+    "general_support": 49500
+  }
+}
+INFO:training_pipeline:Loading and processing data...
+INFO:training_pipeline:Initializing tokenizer...
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+INFO:training_pipeline:Creating data loaders...
+INFO:training_pipeline:Creating model...
+Using device: cuda
+Starting training setup...
+Loaded 123961 total samples
+Posts: 13958, Comments: 110003
+Crisis samples: 2554
